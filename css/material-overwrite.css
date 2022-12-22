@@ -1,0 +1,157 @@
+header nav .brand-logo img {
+    margin-top: 0.5rem;
+    margin-left: -12px;
+}
+
+header nav .btn {
+    margin-top: 0.8rem;
+}
+
+header nav ul a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+main .banner {
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+main .banner .silhouette {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: 0;
+    opacity: 0.3;
+    width: 100%;
+}
+
+main .stelle ul {
+    list-style: none outside none;
+}
+
+main .stelle ul li {
+    margin-left: 4rem;
+    position: relative;
+    list-style: none;
+}
+
+main .stelle ul li:before {
+    display: inline-block;
+    position: absolute;
+    left: -2rem;
+    top: 0.5rem;
+    width: 20px;
+
+    content: "keyboard_arrow_right";
+    color: #000;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    margin-right: 18px;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+}
+
+main .bewerben .input-field label {
+    color: #000;
+}
+
+main .bewerben .input-field input[type=text]:focus + label,
+main .bewerben .input-field input[type=email]:focus + label,
+main .bewerben .input-field textarea:focus + label {
+    color: #000;
+}
+
+main .bewerben .input-field input[type=text]:focus,
+main .bewerben .input-field input[type=email]:focus,
+main .bewerben .input-field textarea:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+main .bewerben .dropdown-content li > a,
+main .bewerben .dropdown-content li > span {
+    color: #000;
+}
+
+main .bewerben .select-wrapper span.caret {
+    top: -2rem;
+}
+
+main .bewerben [type="radio"]:checked + label:after,
+main .bewerben [type="radio"].with-gap:checked + label:before,
+main .bewerben [type="radio"].with-gap:checked + label:after {
+    border: 2px solid #f07e0c;
+}
+
+main .bewerben [type="radio"]:checked + label:after,
+main .bewerben [type="radio"].with-gap:checked + label:after {
+    background-color: #f07e0c;
+}
+
+main .bewerben .picker__date-display,
+main .bewerben .picker__weekday-display {
+    background-color: #42A0F9;
+}
+
+main .bewerben .picker__close,
+main .bewerben .picker__today {
+    color: #42A0F9;
+}
+
+main .bewerben button.picker__today:focus,
+main .bewerben button.picker__clear:focus,
+main .bewerben button.picker__close:focus {
+    background-color: #42A0F9;
+}
+
+main .bewerben .picker__nav--prev:hover,
+main .bewerben .picker__nav--next:hover {
+    background-color: #eee;
+}
+
+main .bewerben .picker__day.picker__day--today {
+    color: #42A0F9;
+}
+
+main .bewerben .picker__day--selected,
+main .bewerben .picker__day--selected:hover,
+main .bewerben .picker--focused .picker__day--selected {
+    background-color: #42A0F9;
+}
+
+main + footer.page-footer {
+    margin-top: 0;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+footer .links li {
+    margin-bottom: 1rem;
+}
+
+footer .links i {
+    vertical-align: bottom;
+}
+
+@media only screen and (min-width: 601px) {
+    main .banner {
+        padding-bottom: 20rem;
+    }
+}
